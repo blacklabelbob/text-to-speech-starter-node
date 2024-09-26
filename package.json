@@ -1,7 +1,17 @@
 {
+  "name": "text-to-speech-starter-node",
+  "version": "1.0.0",
+  "description": "A starter project for Deepgram Speech to Text",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@deepgram/sdk": "^3.2.0",
+    "@deepgram/sdk": "^3.7.0",
+    "body-parser": "^1.19.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.1"
-  }
+  },
+  "author": "Rob",
+  "license": "ISC"
 }
